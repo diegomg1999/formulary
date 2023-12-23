@@ -7,7 +7,65 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <div class="capsule">
+
+    <div class="title">
+    <h1>Formulario de ingreso</h1>
+    </div>
     
-    
+    <form action="" method="post">
+        <li>
+            <label for="nombre">Inserta tú nombre</label>
+            <input type="text" id="nombre" name="name">
+        </li>
+
+        <li>
+            <label for="apellido">Inserta tu apellido</label>
+            <input type="text" id="apellido" name="last-name">
+        </li>
+
+        <li>
+            <label for="email">Inserta tu email</label>
+            <input type="mail" id="email" name="correo">
+        </li>
+
+        <li>
+            <label for="edad">Inserta tu edad</label>
+            <input type="number" id="edad" name="age" min="1" max="120">
+        </li>
+
+        <li>
+            <label for="genero"></label>
+            <select name="genero" id="genero">
+                <option value="Masculino">Masculino</option>
+                <option value="Femenino">Femenino</option>
+                <option value="otro">Otro</option>
+            </select>
+        </li>
+
+        <li>
+            <label for="carrera">¿A que carrera perteneces?</label>
+            <select name="run" id="carrera">
+                <option value="Derecho">Derecho</option>
+                <option value="Programacion">Programacion</option>
+                <option value="Filosofia">Filosofia</option>
+            </select>
+        </li>
+
+        <li>
+            <label for="mensage">Escribe un mensaje</label><br>
+            <textarea name="comentario" id="mensage" cols="30" rows="10"></textarea>
+        </li>
+
+
+            <input type="submit" value="enviar">
+    </form>
+
+
+
+    </div>
+
+
 </body>
 </html>
