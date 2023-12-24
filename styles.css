@@ -1,0 +1,15 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.capsule {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    box-sizing: border-box;
+    border: 1px solid aqua;
+    padding: 0px 5px 12px 5px;
+}
