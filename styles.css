@@ -6,7 +6,6 @@ body {
 .capsule {
     display: flex;
     justify-content: center;
-    padding: 37px;
 }
 
 form {
@@ -31,6 +30,31 @@ form {
 }
 
 section .the-middle {
-    width: auto;
+    width: 313px;
 }
 
+.carreras {
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.carreras label {
+    margin-bottom: 4px;
+}
+
+#separacion {
+    margin-top: 18px;
+}
+
+.the-message {
+    margin-top: 11px;
+}
+
+.submit-the-thing {
+    display: grid;
+    justify-content: center;
+}
+
+.submit-the-thing input {
+    width: auto;
+}
