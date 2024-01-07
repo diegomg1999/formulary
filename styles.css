@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
+    background-color: #53CBFB;
+    color: #15286A;
 }
 
 .capsule {
@@ -10,7 +12,7 @@ body {
 
 form {
     box-sizing: border-box;
-    border: 1px solid aqua;
+    border: 1px solid #DAF7A6;
     padding: 0px 5px 12px 5px;
 }
 
@@ -29,6 +31,14 @@ form {
     border-radius: 5%;
 }
 
+.nombres {
+    margin-top: 5px;
+}
+
+.emails input {
+    margin-bottom: 5px;
+}
+
 section .the-middle {
     width: 313px;
 }
@@ -42,12 +52,16 @@ section .the-middle {
     margin-bottom: 4px;
 }
 
+.container-g {
+    display: inline;
+}
+
 #separacion {
     margin-top: 18px;
 }
 
 .the-message {
-    margin-top: 11px;
+    margin-top: 9px;
 }
 
 .submit-the-thing {
@@ -56,5 +70,6 @@ section .the-middle {
 }
 
 .submit-the-thing input {
+    margin-top: 2px;
     width: auto;
 }
