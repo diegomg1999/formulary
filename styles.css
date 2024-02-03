@@ -1,8 +1,14 @@
 body {
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
-    background-color: #53CBFB;
-    color: #15286A;
+    font-size: 18px;
+    background: linear-gradient(
+        #b2c4c4 0,
+        #ccd8d8 10%,
+        #ccd8d8 60%,
+        #b2c4c4 100%
+    );
+    color: #003d3d;
+    font-family: bold;
 }
 
 .capsule {
@@ -12,23 +18,37 @@ body {
 
 form {
     box-sizing: border-box;
-    border: 1px solid #DAF7A6;
+    border: 1px solid #003d3d;
     padding: 0px 5px 12px 5px;
+    
 }
 
 .the-form section {
     display: grid;
     align-items: center;
     text-align: center;
+    place-items: center;
 }
 
 .title h1{
     margin: 20px 0 -3px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .space-between {
-    border: 2px solid #241917;
+    border: 2px solid #003d3d;
     border-radius: 5%;
+}
+
+.inputs-with-text{
+    background: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid #003d3d;
+    outline: none;
 }
 
 .nombres {
@@ -41,6 +61,7 @@ form {
 
 section .the-middle {
     width: 313px;
+    margin: 9px;
 }
 
 .carreras {

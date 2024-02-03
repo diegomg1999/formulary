@@ -9,7 +9,7 @@
 <body>
 
     <div class="capsule">
-    <form action="" method="post">
+    <form action="" method="post" onsubmit="return validacion()" id="el-form">
 
 
         <div class="the-form">
@@ -22,28 +22,28 @@
         <section class="nombres">
             <div class="the-middle">
             <label for="nombre">Inserta tú nombre</label><br>
-            <input type="text" id="nombre" name="name" required>
+            <input type="text" id="nombre" name="name" class="inputs-with-text" value="">
         </div>
         </section>
 
         <section class="apellidos">
             <div class="the-middle">
             <label for="apellido">Inserta tu apellido</label><br>
-            <input type="text" id="apellido" name="last-name" required>
+            <input type="text" id="apellido" name="last-name" class="inputs-with-text" value="">
         </div>
         </section>
 
         <section class="emails">
             <div class="the-middle">
             <label for="email">Inserta tu email</label><br>
-            <input type="mail" id="email" name="correo">
+            <input type="mail" id="email" name="correo" class="inputs-with-text" value="">
         </div>
         </section>
 
         <section class="edades">
             <div class="the-middle">
             <label for="edad">Inserta tu edad</label><br>
-            <input type="number" id="edad" name="age" min="1" max="120" required>
+            <input type="number" id="edad" name="age" min="1" max="120">
         </div>
         </section>
 
@@ -82,11 +82,7 @@
 
         </div>
     </form>
-
-
-
     </div>
-
-
+    <script src="javascript.js"></script>
 </body>
 </html>
